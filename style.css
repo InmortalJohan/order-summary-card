@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-image: url(images/bg-l.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Open Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4B5C74;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+    width: 450px;
+    box-shadow: 2px 2px #1b1b1b20;
+
+}
+
+.item-img {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.summary h2 {
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.box {
+    display: flex;
+    background-color:#516B9099;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #1b1b1b;
+    font-weight: 300;
+}
+
+.box a {
+    margin-right: 5px;
+    color:#1b1b1b;
+}
+
+.summary {
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+
+.cirkel {
+    width: 40px;
+    height: 40px;
+    background-color: #516b90;
+    border-radius: 50%;
+    border:#84949e 5px solid;
+    margin-left: 5px;
+}
+
+.proceed {
+    background-color:#4B5C74 ;
+    height: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border:none;
+}
+
+.cancel {
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    border: none;
+    color: #84949e;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.box a:hover {
+    color: #516b90;
+    cursor: context-menu;
+}
+
+.cancel:hover{
+    color:#4B5C74;
+    font-weight: 700;
+}
+
+.proceed:hover {
+    background-color: #516b90;
+}
+
+
+
+@media  screen and (max-width:600px) {
+    .item {
+        width: 320px;
+    }
+    body {
+        background-image: url(/images/bg-s.png);
+    }
+}
