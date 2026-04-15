@@ -2,9 +2,6 @@
 
 A clean and responsive order summary component built with HTML and CSS. This project was focused on mastering layout techniques and achieving a high level of design fidelity.
 
-## 🚀 Demo
-[Link to your live demo, e.g., GitHub Pages]
-
 ## 🧠 Learning Objectives
 This project was part of my early journey in web development. The main goals were:
 * Implementing a mobile-first responsive design.
